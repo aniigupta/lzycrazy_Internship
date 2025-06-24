@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+body {
+  @apply bg-blue-50 text-gray-800 font-sans;
+}
+
+input:focus {
+  @apply outline-none ring-2 ring-purple-300;
+}
+
+button:focus {
+  @apply ring-2 ring-purple-300;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
